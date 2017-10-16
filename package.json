@@ -1,7 +1,7 @@
 {
-  "name": "connect-cloudant-store",
+  "name": "connect-pouchdb-store",
   "version": "0.1.1",
-  "description": "Node JS express-session storage connector for IBM Cloudant",
+  "description": "Node JS express-session storage connector for PouchDB",
   "main": "index.js",
   "devDependencies": {
     "chai": "^3.5.0",
@@ -12,10 +12,10 @@
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "cloudant": "1.7.*",
-    "express-session": "^1.13.0",
-    "debug": "^2.2.0",
-    "lodash": "^4.14.0"
+    "debug": "^3.1.0",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.4",
+    "pouchdb": "^6.3.4"
   },
   "scripts": {
     "test": "mocha test --recursive",
@@ -28,13 +28,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adriantanasa/connect-cloudant-store.git"
+    "url": "git+https://github.com/SteffenDE/connect-pouchdb-store.git"
   },
   "keywords": [
-    "connect-cloudant-store",
-    "cloudant",
-    "connect cloudant",
-    "cloudant session",
+    "connect-pouchdb-store",
+    "pouchdb",
+    "connect pouchdb",
+    "pouchdb session",
     "express-session",
     "couchdb",
     "bluemix",
@@ -43,7 +43,7 @@
   "author": "Adrian Tanasa <adrian_tanasa@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adriantanasa/connect-cloudant-store/issues"
+    "url": "https://github.com/SteffenDE/connect-pouchdb-store/issues"
   },
-  "homepage": "https://github.com/adriantanasa/connect-cloudant-store#readme"
+  "homepage": "https://github.com/SteffenDE/connect-pouchdb-store#readme"
 }
